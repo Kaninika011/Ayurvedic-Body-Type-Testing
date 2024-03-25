@@ -14,8 +14,10 @@ function Landingpage() {
           className="w-90 h-80 mb-8 lg:mb-0 lg:ml-20"
         />{" "}
         <div className="mt-5 lg:mr:25">
-          <h1 className="font-mono font-semibold text-5xl  text-zinc-700 animate__zoomIn">
-            Know who you are...
+          <h1 className="font-mono font-semibold text-5xl  text-zinc-700 ">
+            <span className="animate__animated animate__slideInLeft !important">
+              Know who you are...
+            </span>
           </h1>
           <p className="  text-zinc-700 font-semibold py-6 break-normal">
             Everyone is unique and has a special blend of natural qualities that
@@ -25,7 +27,7 @@ function Landingpage() {
             made up <br />
             of the three gunas.
             <br /> These three gunas are:
-            <ul className="list-none ">
+            <ul className="list-none">
               <li className="flex items-center">
                 <img
                   src={plantIcon}

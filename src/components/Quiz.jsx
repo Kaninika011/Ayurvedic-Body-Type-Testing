@@ -53,7 +53,7 @@ function Quiz({ Questions }) {
       {!quizOver ? (
         <>
           <div className="justify-center">
-            <h1 className="  text-zinc-700 font-semibold font-mono text-3xl mb-8 pl-11 lg:text-5xl">
+            <h1 className=" text-zinc-700 font-semibold font-mono text-3xl mb-8 pl-11 lg:text-5xl">
               {" "}
               Know who you are...
             </h1>
@@ -87,7 +87,7 @@ function Quiz({ Questions }) {
               </li>
             </ul>
           </div>
-          <div className="text-xl mb-4 mt-10 text-zinc-700 font-medium">
+          <div className="text-xl sm: text-md mb-4 mt-10 text-zinc-700 font-medium">
             {currentQues.question}
           </div>
           <div className="flex flex-col text-zinc-700 ">
