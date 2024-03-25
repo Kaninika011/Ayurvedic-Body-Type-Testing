@@ -1,5 +1,7 @@
-import { Pie } from "react-chartjs-2";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import { Doughnut } from "react-chartjs-2";
 
+ChartJS.register(ArcElement, Tooltip, Legend);
 const Chart = ({ userCategories }) => {
   const chartData = {
     labels: Object.keys(userCategories),
@@ -15,7 +17,7 @@ const Chart = ({ userCategories }) => {
   return (
     <div>
       <h2>Your Category Result</h2>
-      <Pie data={chartData} />
+      <Doughnut data={chartData} />
     </div>
   );
 };

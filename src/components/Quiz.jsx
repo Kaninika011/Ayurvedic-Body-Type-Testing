@@ -32,6 +32,7 @@ function Quiz({ Questions }) {
   };
 
   const handleSubmit = () => {
+    console.log("userCategories:", userCategories);
     setQuizOver(true);
   };
 
