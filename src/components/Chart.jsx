@@ -16,7 +16,9 @@ const Chart = ({ userCategories }) => {
 
   return (
     <div>
-      <h2>Your Category Result</h2>
+      <h1 className="text-zinc-700 font-semibold font-mono text-3xl mb-8 pl-11 lg:text-4xl">
+        Your Category Result
+      </h1>
       <Doughnut data={chartData} />
     </div>
   );
