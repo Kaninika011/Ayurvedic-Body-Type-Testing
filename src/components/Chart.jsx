@@ -9,19 +9,19 @@ const Chart = ({ userCategories }) => {
     datasets: [
       {
         data: Object.values(userCategories),
-        backgroundColor: ["#eab308", "#65a30d", "#1a2e05"],
-        hoverBackgroundColor: ["#eab308", "#65a30d", "#1a2e05"],
+        backgroundColor: ["#67e8f9", "#075985", "#1e3a8a"],
+        hoverBackgroundColor: ["#67e8f9", "#075985", "#1e3a8a"],
       },
     ],
   };
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-zinc-700 font-semibold font-mono text-3xl mb-8 pl-11 lg:text-4xl">
-        Your Category Result
+      <h1 className=" text-sky-100 font-semibold font-mono text-3xl mb-8 pl-11 lg:text-4xl">
+        Your Test Result
       </h1>
       <Doughnut data={chartData} />
-      <Link to="/" className=" mt-5 btn btn-accent btn-wide text-zinc-700">
+      <Link to="/" className=" mt-5 btn btn-accent btn-wide  text-sky-950">
         Retake Test{" "}
       </Link>
     </div>
