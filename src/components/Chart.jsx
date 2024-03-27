@@ -17,7 +17,7 @@ const Chart = ({ userCategories }) => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className=" text-sky-100 font-semibold font-mono text-3xl mb-8 pl-11 lg:text-4xl">
+      <h1 className=" text-sky-100 font-semibold font-mono text-3xl mb-8  lg:text-4xl">
         Your Test Result
       </h1>
       <Doughnut data={chartData} />
