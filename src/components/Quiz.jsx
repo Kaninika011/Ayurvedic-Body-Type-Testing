@@ -43,7 +43,7 @@ function Quiz({ Questions }) {
   };
 
   return (
-    <div className="relative flex flex-col items-center h-screen bg-sky-950">
+    <div className="relative flex flex-col items-center justify-center h-screen bg-sky-950">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${bg})`, filter: "blur(7px)" }}
@@ -51,7 +51,7 @@ function Quiz({ Questions }) {
       <div className="relative flex flex-col items-center justify-center z-10">
         {!quizOver ? (
           <>
-            <div className="flex pb-6 pt-6 justify-center items-center bg-sky-200">
+            <div className=" flex pb-6 pt-6 items-center bg-sky-200">
               <ul className="flex text-sky-950 list-none font-medium">
                 <li className="flex items-center">
                   <img
