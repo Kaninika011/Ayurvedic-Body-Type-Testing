@@ -1,6 +1,7 @@
 # Know who you are 
 
-![Screenshot 2024-03-25 192743](https://github.com/Kaninika011/Ayurvedic-Type-Testing/assets/74821776/7aa12a86-72e2-4413-a266-7306a3621a05)
+![proj-img6](https://github.com/Kaninika011/Ayurvedic-Type-Testing/assets/74821776/1bfd20b9-b25a-4f5a-b2c2-cc76290935e2)
+
 
 # Tech Stack
 - React 
